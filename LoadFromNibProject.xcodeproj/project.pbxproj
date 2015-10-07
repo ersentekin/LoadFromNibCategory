@@ -15,6 +15,7 @@
 		9A6B8F831BC52FED00B90B61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A6B8F811BC52FED00B90B61 /* LaunchScreen.storyboard */; };
 		9A6B8F8E1BC52FED00B90B61 /* LoadFromNibProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6B8F8D1BC52FED00B90B61 /* LoadFromNibProjectTests.m */; };
 		9A6B8F991BC52FED00B90B61 /* LoadFromNibProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6B8F981BC52FED00B90B61 /* LoadFromNibProjectUITests.m */; };
+		9A6B8FA81BC5301300B90B61 /* UIView+LoadFromNib.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6B8FA71BC5301300B90B61 /* UIView+LoadFromNib.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		9A6B8F941BC52FED00B90B61 /* LoadFromNibProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoadFromNibProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A6B8F981BC52FED00B90B61 /* LoadFromNibProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoadFromNibProjectUITests.m; sourceTree = "<group>"; };
 		9A6B8F9A1BC52FED00B90B61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A6B8FA61BC5301300B90B61 /* UIView+LoadFromNib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+LoadFromNib.h"; path = "Lib/UIView+LoadFromNib.h"; sourceTree = "<group>"; };
+		9A6B8FA71BC5301300B90B61 /* UIView+LoadFromNib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+LoadFromNib.m"; path = "Lib/UIView+LoadFromNib.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		9A6B8F721BC52FED00B90B61 /* LoadFromNibProject */ = {
 			isa = PBXGroup;
 			children = (
+				9A6B8FA91BC5301800B90B61 /* Lib */,
 				9A6B8F761BC52FED00B90B61 /* AppDelegate.h */,
 				9A6B8F771BC52FED00B90B61 /* AppDelegate.m */,
 				9A6B8F791BC52FED00B90B61 /* ViewController.h */,
@@ -138,6 +142,15 @@
 				9A6B8F9A1BC52FED00B90B61 /* Info.plist */,
 			);
 			path = LoadFromNibProjectUITests;
+			sourceTree = "<group>";
+		};
+		9A6B8FA91BC5301800B90B61 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				9A6B8FA61BC5301300B90B61 /* UIView+LoadFromNib.h */,
+				9A6B8FA71BC5301300B90B61 /* UIView+LoadFromNib.m */,
+			);
+			name = Lib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,6 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A6B8FA81BC5301300B90B61 /* UIView+LoadFromNib.m in Sources */,
 				9A6B8F7B1BC52FED00B90B61 /* ViewController.m in Sources */,
 				9A6B8F781BC52FED00B90B61 /* AppDelegate.m in Sources */,
 				9A6B8F751BC52FED00B90B61 /* main.m in Sources */,
